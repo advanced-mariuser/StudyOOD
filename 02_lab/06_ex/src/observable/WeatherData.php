@@ -45,6 +45,7 @@ class WeatherData extends Observable
             $this->getTemperature(),
             $this->getHumidity(),
             $this->getPressure(),
+            'indoor'
         );
     }
 }

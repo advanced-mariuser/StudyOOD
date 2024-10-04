@@ -9,6 +9,7 @@ class Display implements ObserverInterface
 
     public function update(WeatherDataInfo $data): void
     {
+        echo "Station: {$data->stationType}\n";
         echo "Priority: {$this->priority}\n";
         echo "Current Temp: {$data->temperature}\n";
         echo "Current Hum: {$data->humidity}\n";

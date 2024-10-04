@@ -14,6 +14,7 @@ class StatsDisplay implements ObserverInterface
 
     public function update(WeatherDataInfo $data): void
     {
+        echo "Station: {$data->stationType}\n";
         echo "Priority: {$this->priority}\n";
         $this->updateStats('temperature', $data->temperature);
         $this->updateStats('humidity', $data->humidity);

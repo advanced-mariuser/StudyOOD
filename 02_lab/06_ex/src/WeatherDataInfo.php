@@ -7,6 +7,7 @@ class WeatherDataInfo
         public float $temperature = 0,
         public float $humidity = 0,
         public float $pressure = 0,
+        public string $stationType = 'unknown',
         public ?float $windSpeed = null,
         public ?string $windDirection = null
     )
