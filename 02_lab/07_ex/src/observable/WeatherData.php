@@ -5,9 +5,9 @@ require_once __DIR__ . '/Observable.php';
 
 class WeatherData extends Observable
 {
-    private float $temperature = 0.0;
-    private float $humidity = 0.0;
-    private float $pressure = 760.0;
+    protected float $temperature = 0.0;
+    protected float $humidity = 0.0;
+    protected float $pressure = 760.0;
 
     public function getTemperature(): float
     {
@@ -38,17 +38,13 @@ class WeatherData extends Observable
         $this->measurementsChanged();
     }
 
-    public function getObservers(): array
-    {
-        return $this->observersHeap;
-    }
-
     protected function getChangedData(): WeatherDataInfo
     {
         return new WeatherDataInfo(
+
             $this->getTemperature(),
             $this->getHumidity(),
-            $this->getPressure()
+            $this->getPressure(),
         );
     }
 }

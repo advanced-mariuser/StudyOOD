@@ -12,26 +12,43 @@ class WeatherStationTest extends TestCase
 {
     public function testWeatherStationDuo()
     {
-        // Create two weather stations: indoor and outdoor
         $indoorWeatherData = new WeatherData('indoor');
         $outdoorWeatherData = new WeatherData('outdoor');
 
-        // Create observers
-        $display = new Display();
-        $statsDisplay = new StatsDisplay();
+        $display = $this->createMock(Display::class);
+        $statsDisplay = $this->createMock(StatsDisplay::class);
 
-        // Register observers to both weather stations
+        $display->expects($this->exactly(2))
+            ->method('update')
+            ->with($this->logicalOr(
+                $this->callback(function ($data) {
+                    return $data->getTemperature() === 22.5 && $data->getHumidity() === 55.0 && $data->getPressure() === 1010;
+                }),
+                $this->callback(function ($data) {
+                    return $data->getTemperature() === 30.0 && $data->getHumidity() === 45.0 && $data->getPressure() === 1005;
+                })
+            ));
+
+        $statsDisplay->expects($this->exactly(2))
+            ->method('update')
+            ->with($this->logicalOr(
+                $this->callback(function ($data) {
+                    return $data->getTemperature() === 22.5 && $data->getHumidity() === 55.0 && $data->getPressure() === 1010;
+                }),
+                $this->callback(function ($data) {
+                    return $data->getTemperature() === 30.0 && $data->getHumidity() === 45.0 && $data->getPressure() === 1005;
+                })
+            ));
+
         $indoorWeatherData->registerObserver($display, 1);
         $outdoorWeatherData->registerObserver($display, 1);
 
         $indoorWeatherData->registerObserver($statsDisplay, 2);
         $outdoorWeatherData->registerObserver($statsDisplay, 2);
 
-        // Simulate data changes for indoor station
         echo "Indoor Station Data Update:\n";
         $indoorWeatherData->setMeasurements(22.5, 55.0, 1010);
 
-        // Simulate data changes for outdoor station
         echo "Outdoor Station Data Update:\n";
         $outdoorWeatherData->setMeasurements(30.0, 45.0, 1005);
     }
