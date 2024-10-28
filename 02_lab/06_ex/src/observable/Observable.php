@@ -108,6 +108,7 @@ class Observable implements ObservableInterface
         $this->observersHeap[$index2] = $temp;
     }
 
+    //выпилить все что касается погоды из Observable
     protected function getChangedData(): ?WeatherDataInfo
     {
         // This method should be overridden in subclasses

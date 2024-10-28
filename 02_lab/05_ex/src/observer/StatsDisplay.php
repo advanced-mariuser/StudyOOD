@@ -19,6 +19,7 @@ class StatsDisplay implements ObserverInterface
         $this->updateStats('humidity', $data->humidity);
         $this->updateStats('pressure', $data->pressure);
 
+        //считать среднее направление ветра через вектора
         if ($data->windSpeed !== null && $data->windDirection !== null) {
             echo "Wind Speed: {$data->windSpeed} m/s\n";
             echo "Wind Direction: {$data->windDirection}\n";

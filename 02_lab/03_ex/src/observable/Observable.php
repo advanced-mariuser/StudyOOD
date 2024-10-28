@@ -44,6 +44,7 @@ class Observable implements ObservableInterface
 
         unset($this->observerMap[$observerKey]);
 
+        //время не хуже линейного
         foreach ($this->observersHeap as $key => $entry)
         {
             if ($entry['observer'] === $observer)

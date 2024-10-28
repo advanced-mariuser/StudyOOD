@@ -10,6 +10,7 @@ class WeatherData extends Observable
     private float $pressure = 760.0;
     private string $stationType;
 
+    //передавать не строку а ссылку на субъект
     public function __construct(string $stationType)
     {
         $this->stationType = $stationType;
