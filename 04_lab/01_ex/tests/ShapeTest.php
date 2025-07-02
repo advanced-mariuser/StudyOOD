@@ -1,7 +1,10 @@
 <?php
 declare(strict_types=1);
 
+use Canvas\CanvasInterface;
 use PHPUnit\Framework\TestCase;
+use Shape\Ellipse;
+use Shape\Rectangle;
 
 require_once __DIR__. '/../vendor/autoload.php';
 require_once __DIR__. '/../src/Shapes/Shape.php';

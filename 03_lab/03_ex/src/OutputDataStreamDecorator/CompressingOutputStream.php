@@ -2,7 +2,7 @@
 
 require_once __DIR__ . '/../OutputDataStream/OutputDataStreamInterface.php';
 
-class CompressingOutputStream
+class CompressingOutputStream implements OutputDataStreamInterface
 {
     private OutputDataStreamInterface $stream;
     private array $currentBlock = [

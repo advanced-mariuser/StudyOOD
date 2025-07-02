@@ -1,6 +1,8 @@
 <?php
 declare(strict_types=1);
 
+use Canvas\SVGCanvas;
+
 require_once __DIR__ . '/Canvas/SVGCanvas.php';
 require_once __DIR__ . '/ShapeFactory/ShapeFactory.php';
 require_once __DIR__ . '/Designer/DesignerInterface.php';

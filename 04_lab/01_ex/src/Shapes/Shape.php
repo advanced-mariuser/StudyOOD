@@ -1,6 +1,8 @@
 <?php
 declare(strict_types=1);
 
+use Canvas\CanvasInterface;
+
 require_once __DIR__ . '/../Canvas/CanvasInterface.php';
 require_once __DIR__ . '/Color.php';
 

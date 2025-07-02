@@ -1,0 +1,443 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/JetBrains/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDetermineSystem.cmake:233 (message)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      The system is: Windows - 10.0.22631 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/JetBrains/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/JetBrains/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/JetBrains/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: C:/Users/user/Downloads/Telegram Desktop/MinGW/MinGW/bin/gcc.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
+      
+      The C compiler identification is GNU, found in:
+        C:/iSpring/StudyOOD/09_lab/cmake-build-release/CMakeFiles/3.28.1/CompilerIdC/a.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/JetBrains/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/JetBrains/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/JetBrains/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: C:/Users/user/Downloads/Telegram Desktop/MinGW/MinGW/bin/g++.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
+      
+      The CXX compiler identification is GNU, found in:
+        C:/iSpring/StudyOOD/09_lab/cmake-build-release/CMakeFiles/3.28.1/CompilerIdCXX/a.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/JetBrains/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Program Files/JetBrains/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/iSpring/StudyOOD/09_lab/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-bhw4nk"
+      binary: "C:/iSpring/StudyOOD/09_lab/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-bhw4nk"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/iSpring/StudyOOD/09_lab/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-bhw4nk'
+        
+        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2024.1/bin/ninja/win/x64/ninja.exe" -v cmTC_880fe
+        [1/2] C:\\Users\\user\\DOWNLO~1\\TELEGR~1\\MinGW\\MinGW\\bin\\gcc.exe   -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_880fe.dir/CMakeCCompilerABI.c.obj -c "C:/Program Files/JetBrains/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCCompilerABI.c"
+        Using built-in specs.
+        COLLECT_GCC=C:\\Users\\user\\DOWNLO~1\\TELEGR~1\\MinGW\\MinGW\\bin\\gcc.exe
+        Target: x86_64-w64-mingw32
+        Configured with: ../src/configure --enable-languages=c,c++ --build=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --disable-multilib --prefix=/e/temp/gcc/dest --with-sysroot=/e/temp/gcc/dest --disable-libstdcxx-pch --disable-libstdcxx-verbose --disable-nls --disable-shared --disable-win32-registry --enable-threads=posix --enable-libgomp --with-zstd=/c/mingw
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 13.2.0 (GCC) 
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_880fe.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_880fe.dir/'
+         C:/Users/user/Downloads/Telegram Desktop/MinGW/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/cc1.exe -quiet -v -iprefix C:/Users/user/Downloads/Telegram Desktop/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/ -D_REENTRANT C:/Program Files/JetBrains/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_880fe.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fdiagnostics-color=always -o C:\\Users\\user\\AppData\\Local\\Temp\\cc15CLiz.s
+        GNU C17 (GCC) version 13.2.0 (x86_64-w64-mingw32)
+        	compiled by GNU C version 13.2.0, GMP version 6.3.0, MPFR version 4.2.1, MPC version 1.3.1, isl version isl-0.24-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring duplicate directory "C:/Users/user/Downloads/Telegram Desktop/MinGW/MinGW/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.2.0/include"
+        ignoring nonexistent directory "/e/temp/gcc/dest/e/temp/gcc/dest/lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../include"
+        ignoring duplicate directory "C:/Users/user/Downloads/Telegram Desktop/MinGW/MinGW/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.2.0/include-fixed"
+        ignoring duplicate directory "C:/Users/user/Downloads/Telegram Desktop/MinGW/MinGW/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/include"
+        ignoring nonexistent directory "/e/temp/gcc/dest/mingw/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         C:/Users/user/Downloads/Telegram Desktop/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/include
+         C:/Users/user/Downloads/Telegram Desktop/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/include-fixed
+         C:/Users/user/Downloads/Telegram Desktop/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/include
+        End of search list.
+        Compiler executable checksum: 57be99a5b99999b94eef0e4814eb03c2
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_880fe.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_880fe.dir/'
+         C:/Users/user/Downloads/Telegram Desktop/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles/cmTC_880fe.dir/CMakeCCompilerABI.c.obj C:\\Users\\user\\AppData\\Local\\Temp\\cc15CLiz.s
+        GNU assembler version 2.41 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.41
+        COMPILER_PATH=C:/Users/user/Downloads/Telegram Desktop/MinGW/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/;C:/Users/user/Downloads/Telegram Desktop/MinGW/MinGW/bin/../libexec/gcc/;C:/Users/user/Downloads/Telegram Desktop/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/bin/
+        LIBRARY_PATH=C:/Users/user/Downloads/Telegram Desktop/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/;C:/Users/user/Downloads/Telegram Desktop/MinGW/MinGW/bin/../lib/gcc/;C:/Users/user/Downloads/Telegram Desktop/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/Users/user/Downloads/Telegram Desktop/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../lib/;C:/Users/user/Downloads/Telegram Desktop/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/;C:/Users/user/Downloads/Telegram Desktop/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_880fe.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_880fe.dir/CMakeCCompilerABI.c.'
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\Users\\user\\DOWNLO~1\\TELEGR~1\\MinGW\\MinGW\\bin\\gcc.exe  -v CMakeFiles/cmTC_880fe.dir/CMakeCCompilerABI.c.obj -o cmTC_880fe.exe -Wl,--out-implib,libcmTC_880fe.dll.a -Wl,--major-image-version,0,--minor-image-version,0   && cd ."
+        Using built-in specs.
+        COLLECT_GCC=C:\\Users\\user\\DOWNLO~1\\TELEGR~1\\MinGW\\MinGW\\bin\\gcc.exe
+        COLLECT_LTO_WRAPPER=C:/Users/user/Downloads/Telegram\\ Desktop/MinGW/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/lto-wrapper.exe
+        Target: x86_64-w64-mingw32
+        Configured with: ../src/configure --enable-languages=c,c++ --build=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --disable-multilib --prefix=/e/temp/gcc/dest --with-sysroot=/e/temp/gcc/dest --disable-libstdcxx-pch --disable-libstdcxx-verbose --disable-nls --disable-shared --disable-win32-registry --enable-threads=posix --enable-libgomp --with-zstd=/c/mingw
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 13.2.0 (GCC) 
+        COMPILER_PATH=C:/Users/user/Downloads/Telegram Desktop/MinGW/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/;C:/Users/user/Downloads/Telegram Desktop/MinGW/MinGW/bin/../libexec/gcc/;C:/Users/user/Downloads/Telegram Desktop/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/bin/
+        LIBRARY_PATH=C:/Users/user/Downloads/Telegram Desktop/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/;C:/Users/user/Downloads/Telegram Desktop/MinGW/MinGW/bin/../lib/gcc/;C:/Users/user/Downloads/Telegram Desktop/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/Users/user/Downloads/Telegram Desktop/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../lib/;C:/Users/user/Downloads/Telegram Desktop/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/;C:/Users/user/Downloads/Telegram Desktop/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_880fe.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_880fe.'
+         C:/Users/user/Downloads/Telegram Desktop/MinGW/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/collect2.exe -plugin C:/Users/user/Downloads/Telegram Desktop/MinGW/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/liblto_plugin.dll -plugin-opt=C:/Users/user/Downloads/Telegram Desktop/MinGW/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\user\\AppData\\Local\\Temp\\cczTm91E.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 --sysroot=/e/temp/gcc/dest -m i386pep -Bdynamic -o cmTC_880fe.exe C:/Users/user/Downloads/Telegram Desktop/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Users/user/Downloads/Telegram Desktop/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/crtbegin.o -LC:/Users/user/Downloads/Telegram Desktop/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0 -LC:/Users/user/Downloads/Telegram Desktop/MinGW/MinGW/bin/../lib/gcc -LC:/Users/user/Downloads/Telegram Desktop/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Users/user/Downloads/Telegram Desktop/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../lib -LC:/Users/user/Downloads/Telegram Desktop/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib -LC:/Users/user/Downloads/Telegram Desktop/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../.. CMakeFiles/cmTC_880fe.dir/CMakeCCompilerABI.c.obj --out-implib libcmTC_880fe.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/Users/user/Downloads/Telegram Desktop/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/crtend.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_880fe.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_880fe.'\x0d
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/JetBrains/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
+      - "C:/Program Files/JetBrains/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [C:/Users/user/Downloads/Telegram Desktop/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/include]
+          add: [C:/Users/user/Downloads/Telegram Desktop/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/include-fixed]
+          add: [C:/Users/user/Downloads/Telegram Desktop/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/include]
+        end of search list found
+        collapse include dir [C:/Users/user/Downloads/Telegram Desktop/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/include] ==> [C:/Users/user/Downloads/Telegram Desktop/MinGW/MinGW/lib/gcc/x86_64-w64-mingw32/13.2.0/include]
+        collapse include dir [C:/Users/user/Downloads/Telegram Desktop/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/include-fixed] ==> [C:/Users/user/Downloads/Telegram Desktop/MinGW/MinGW/lib/gcc/x86_64-w64-mingw32/13.2.0/include-fixed]
+        collapse include dir [C:/Users/user/Downloads/Telegram Desktop/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/include] ==> [C:/Users/user/Downloads/Telegram Desktop/MinGW/MinGW/x86_64-w64-mingw32/include]
+        implicit include dirs: [C:/Users/user/Downloads/Telegram Desktop/MinGW/MinGW/lib/gcc/x86_64-w64-mingw32/13.2.0/include;C:/Users/user/Downloads/Telegram Desktop/MinGW/MinGW/lib/gcc/x86_64-w64-mingw32/13.2.0/include-fixed;C:/Users/user/Downloads/Telegram Desktop/MinGW/MinGW/x86_64-w64-mingw32/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/JetBrains/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:159 (message)"
+      - "C:/Program Files/JetBrains/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld\\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: 'C:/iSpring/StudyOOD/09_lab/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-bhw4nk']
+        ignore line: []
+        ignore line: [Run Build Command(s): "C:/Program Files/JetBrains/CLion 2024.1/bin/ninja/win/x64/ninja.exe" -v cmTC_880fe]
+        ignore line: [[1/2] C:\\Users\\user\\DOWNLO~1\\TELEGR~1\\MinGW\\MinGW\\bin\\gcc.exe   -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_880fe.dir/CMakeCCompilerABI.c.obj -c "C:/Program Files/JetBrains/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCCompilerABI.c"]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=C:\\Users\\user\\DOWNLO~1\\TELEGR~1\\MinGW\\MinGW\\bin\\gcc.exe]
+        ignore line: [Target: x86_64-w64-mingw32]
+        ignore line: [Configured with: ../src/configure --enable-languages=c c++ --build=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --disable-multilib --prefix=/e/temp/gcc/dest --with-sysroot=/e/temp/gcc/dest --disable-libstdcxx-pch --disable-libstdcxx-verbose --disable-nls --disable-shared --disable-win32-registry --enable-threads=posix --enable-libgomp --with-zstd=/c/mingw]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 13.2.0 (GCC) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_880fe.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_880fe.dir/']
+        ignore line: [ C:/Users/user/Downloads/Telegram Desktop/MinGW/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/cc1.exe -quiet -v -iprefix C:/Users/user/Downloads/Telegram Desktop/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/ -D_REENTRANT C:/Program Files/JetBrains/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_880fe.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fdiagnostics-color=always -o C:\\Users\\user\\AppData\\Local\\Temp\\cc15CLiz.s]
+        ignore line: [GNU C17 (GCC) version 13.2.0 (x86_64-w64-mingw32)]
+        ignore line: [	compiled by GNU C version 13.2.0  GMP version 6.3.0  MPFR version 4.2.1  MPC version 1.3.1  isl version isl-0.24-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring duplicate directory "C:/Users/user/Downloads/Telegram Desktop/MinGW/MinGW/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.2.0/include"]
+        ignore line: [ignoring nonexistent directory "/e/temp/gcc/dest/e/temp/gcc/dest/lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../include"]
+        ignore line: [ignoring duplicate directory "C:/Users/user/Downloads/Telegram Desktop/MinGW/MinGW/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.2.0/include-fixed"]
+        ignore line: [ignoring duplicate directory "C:/Users/user/Downloads/Telegram Desktop/MinGW/MinGW/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/include"]
+        ignore line: [ignoring nonexistent directory "/e/temp/gcc/dest/mingw/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ C:/Users/user/Downloads/Telegram Desktop/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/include]
+        ignore line: [ C:/Users/user/Downloads/Telegram Desktop/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/include-fixed]
+        ignore line: [ C:/Users/user/Downloads/Telegram Desktop/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/include]
+        ignore line: [End of search list.]
+        ignore line: [Compiler executable checksum: 57be99a5b99999b94eef0e4814eb03c2]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_880fe.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_880fe.dir/']
+        ignore line: [ C:/Users/user/Downloads/Telegram Desktop/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles/cmTC_880fe.dir/CMakeCCompilerABI.c.obj C:\\Users\\user\\AppData\\Local\\Temp\\cc15CLiz.s]
+        ignore line: [GNU assembler version 2.41 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.41]
+        ignore line: [COMPILER_PATH=C:/Users/user/Downloads/Telegram Desktop/MinGW/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/]
+        ignore line: [C:/Users/user/Downloads/Telegram Desktop/MinGW/MinGW/bin/../libexec/gcc/]
+        ignore line: [C:/Users/user/Downloads/Telegram Desktop/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/bin/]
+        ignore line: [LIBRARY_PATH=C:/Users/user/Downloads/Telegram Desktop/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/]
+        ignore line: [C:/Users/user/Downloads/Telegram Desktop/MinGW/MinGW/bin/../lib/gcc/]
+        ignore line: [C:/Users/user/Downloads/Telegram Desktop/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/../lib/]
+        ignore line: [C:/Users/user/Downloads/Telegram Desktop/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../lib/]
+        ignore line: [C:/Users/user/Downloads/Telegram Desktop/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/]
+        ignore line: [C:/Users/user/Downloads/Telegram Desktop/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_880fe.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_880fe.dir/CMakeCCompilerABI.c.']
+        ignore line: [[2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\Users\\user\\DOWNLO~1\\TELEGR~1\\MinGW\\MinGW\\bin\\gcc.exe  -v CMakeFiles/cmTC_880fe.dir/CMakeCCompilerABI.c.obj -o cmTC_880fe.exe -Wl --out-implib libcmTC_880fe.dll.a -Wl --major-image-version 0 --minor-image-version 0   && cd ."]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=C:\\Users\\user\\DOWNLO~1\\TELEGR~1\\MinGW\\MinGW\\bin\\gcc.exe]
+        ignore line: [COLLECT_LTO_WRAPPER=C:/Users/user/Downloads/Telegram\\ Desktop/MinGW/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/lto-wrapper.exe]
+        ignore line: [Target: x86_64-w64-mingw32]
+        ignore line: [Configured with: ../src/configure --enable-languages=c c++ --build=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --disable-multilib --prefix=/e/temp/gcc/dest --with-sysroot=/e/temp/gcc/dest --disable-libstdcxx-pch --disable-libstdcxx-verbose --disable-nls --disable-shared --disable-win32-registry --enable-threads=posix --enable-libgomp --with-zstd=/c/mingw]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 13.2.0 (GCC) ]
+        ignore line: [COMPILER_PATH=C:/Users/user/Downloads/Telegram Desktop/MinGW/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/]
+        ignore line: [C:/Users/user/Downloads/Telegram Desktop/MinGW/MinGW/bin/../libexec/gcc/]
+        ignore line: [C:/Users/user/Downloads/Telegram Desktop/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/bin/]
+        ignore line: [LIBRARY_PATH=C:/Users/user/Downloads/Telegram Desktop/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/]
+        ignore line: [C:/Users/user/Downloads/Telegram Desktop/MinGW/MinGW/bin/../lib/gcc/]
+        ignore line: [C:/Users/user/Downloads/Telegram Desktop/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/../lib/]
+        ignore line: [C:/Users/user/Downloads/Telegram Desktop/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../lib/]
+        ignore line: [C:/Users/user/Downloads/Telegram Desktop/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/]
+        ignore line: [C:/Users/user/Downloads/Telegram Desktop/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_880fe.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_880fe.']
+        ignore line: [ C:/Users/user/Downloads/Telegram Desktop/MinGW/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/collect2.exe -plugin C:/Users/user/Downloads/Telegram Desktop/MinGW/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/liblto_plugin.dll -plugin-opt=C:/Users/user/Downloads/Telegram Desktop/MinGW/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\user\\AppData\\Local\\Temp\\cczTm91E.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 --sysroot=/e/temp/gcc/dest -m i386pep -Bdynamic -o cmTC_880fe.exe C:/Users/user/Downloads/Telegram Desktop/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Users/user/Downloads/Telegram Desktop/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/crtbegin.o -LC:/Users/user/Downloads/Telegram Desktop/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0 -LC:/Users/user/Downloads/Telegram Desktop/MinGW/MinGW/bin/../lib/gcc -LC:/Users/user/Downloads/Telegram Desktop/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Users/user/Downloads/Telegram Desktop/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../lib -LC:/Users/user/Downloads/Telegram Desktop/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib -LC:/Users/user/Downloads/Telegram Desktop/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../.. CMakeFiles/cmTC_880fe.dir/CMakeCCompilerABI.c.obj --out-implib libcmTC_880fe.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/Users/user/Downloads/Telegram Desktop/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/crtend.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_880fe.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_880fe.'\x0d]
+        ignore line: []
+        ignore line: []
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/JetBrains/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Program Files/JetBrains/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/iSpring/StudyOOD/09_lab/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-s4dgqk"
+      binary: "C:/iSpring/StudyOOD/09_lab/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-s4dgqk"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/iSpring/StudyOOD/09_lab/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-s4dgqk'
+        
+        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2024.1/bin/ninja/win/x64/ninja.exe" -v cmTC_64faf
+        [1/2] C:\\Users\\user\\DOWNLO~1\\TELEGR~1\\MinGW\\MinGW\\bin\\G__~1.EXE   -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_64faf.dir/CMakeCXXCompilerABI.cpp.obj -c "C:/Program Files/JetBrains/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp"
+        Using built-in specs.
+        COLLECT_GCC=C:\\Users\\user\\DOWNLO~1\\TELEGR~1\\MinGW\\MinGW\\bin\\G__~1.EXE
+        Target: x86_64-w64-mingw32
+        Configured with: ../src/configure --enable-languages=c,c++ --build=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --disable-multilib --prefix=/e/temp/gcc/dest --with-sysroot=/e/temp/gcc/dest --disable-libstdcxx-pch --disable-libstdcxx-verbose --disable-nls --disable-shared --disable-win32-registry --enable-threads=posix --enable-libgomp --with-zstd=/c/mingw
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 13.2.0 (GCC) 
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_64faf.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_64faf.dir/'
+         C:/Users/user/Downloads/Telegram Desktop/MinGW/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/cc1plus.exe -quiet -v -iprefix C:/Users/user/Downloads/Telegram Desktop/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/ -D_REENTRANT C:/Program Files/JetBrains/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_64faf.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fdiagnostics-color=always -o C:\\Users\\user\\AppData\\Local\\Temp\\ccWq4Dpl.s
+        GNU C++17 (GCC) version 13.2.0 (x86_64-w64-mingw32)
+        	compiled by GNU C version 13.2.0, GMP version 6.3.0, MPFR version 4.2.1, MPC version 1.3.1, isl version isl-0.24-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring duplicate directory "C:/Users/user/Downloads/Telegram Desktop/MinGW/MinGW/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../include/c++/13.2.0"
+        ignoring duplicate directory "C:/Users/user/Downloads/Telegram Desktop/MinGW/MinGW/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../include/c++/13.2.0/x86_64-w64-mingw32"
+        ignoring duplicate directory "C:/Users/user/Downloads/Telegram Desktop/MinGW/MinGW/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../include/c++/13.2.0/backward"
+        ignoring duplicate directory "C:/Users/user/Downloads/Telegram Desktop/MinGW/MinGW/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.2.0/include"
+        ignoring nonexistent directory "/e/temp/gcc/dest/e/temp/gcc/dest/lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../include"
+        ignoring duplicate directory "C:/Users/user/Downloads/Telegram Desktop/MinGW/MinGW/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.2.0/include-fixed"
+        ignoring duplicate directory "C:/Users/user/Downloads/Telegram Desktop/MinGW/MinGW/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/include"
+        ignoring nonexistent directory "/e/temp/gcc/dest/mingw/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         C:/Users/user/Downloads/Telegram Desktop/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../include/c++/13.2.0
+         C:/Users/user/Downloads/Telegram Desktop/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../include/c++/13.2.0/x86_64-w64-mingw32
+         C:/Users/user/Downloads/Telegram Desktop/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../include/c++/13.2.0/backward
+         C:/Users/user/Downloads/Telegram Desktop/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/include
+         C:/Users/user/Downloads/Telegram Desktop/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/include-fixed
+         C:/Users/user/Downloads/Telegram Desktop/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/include
+        End of search list.
+        Compiler executable checksum: aa8d155dea9d0b877613f1961dc4601a
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_64faf.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_64faf.dir/'
+         C:/Users/user/Downloads/Telegram Desktop/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles/cmTC_64faf.dir/CMakeCXXCompilerABI.cpp.obj C:\\Users\\user\\AppData\\Local\\Temp\\ccWq4Dpl.s
+        GNU assembler version 2.41 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.41
+        COMPILER_PATH=C:/Users/user/Downloads/Telegram Desktop/MinGW/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/;C:/Users/user/Downloads/Telegram Desktop/MinGW/MinGW/bin/../libexec/gcc/;C:/Users/user/Downloads/Telegram Desktop/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/bin/
+        LIBRARY_PATH=C:/Users/user/Downloads/Telegram Desktop/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/;C:/Users/user/Downloads/Telegram Desktop/MinGW/MinGW/bin/../lib/gcc/;C:/Users/user/Downloads/Telegram Desktop/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/Users/user/Downloads/Telegram Desktop/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../lib/;C:/Users/user/Downloads/Telegram Desktop/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/;C:/Users/user/Downloads/Telegram Desktop/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_64faf.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_64faf.dir/CMakeCXXCompilerABI.cpp.'
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\Users\\user\\DOWNLO~1\\TELEGR~1\\MinGW\\MinGW\\bin\\G__~1.EXE  -v CMakeFiles/cmTC_64faf.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_64faf.exe -Wl,--out-implib,libcmTC_64faf.dll.a -Wl,--major-image-version,0,--minor-image-version,0   && cd ."
+        Using built-in specs.
+        COLLECT_GCC=C:\\Users\\user\\DOWNLO~1\\TELEGR~1\\MinGW\\MinGW\\bin\\G__~1.EXE
+        COLLECT_LTO_WRAPPER=C:/Users/user/Downloads/Telegram\\ Desktop/MinGW/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/lto-wrapper.exe
+        Target: x86_64-w64-mingw32
+        Configured with: ../src/configure --enable-languages=c,c++ --build=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --disable-multilib --prefix=/e/temp/gcc/dest --with-sysroot=/e/temp/gcc/dest --disable-libstdcxx-pch --disable-libstdcxx-verbose --disable-nls --disable-shared --disable-win32-registry --enable-threads=posix --enable-libgomp --with-zstd=/c/mingw
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 13.2.0 (GCC) 
+        COMPILER_PATH=C:/Users/user/Downloads/Telegram Desktop/MinGW/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/;C:/Users/user/Downloads/Telegram Desktop/MinGW/MinGW/bin/../libexec/gcc/;C:/Users/user/Downloads/Telegram Desktop/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/bin/
+        LIBRARY_PATH=C:/Users/user/Downloads/Telegram Desktop/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/;C:/Users/user/Downloads/Telegram Desktop/MinGW/MinGW/bin/../lib/gcc/;C:/Users/user/Downloads/Telegram Desktop/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/Users/user/Downloads/Telegram Desktop/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../lib/;C:/Users/user/Downloads/Telegram Desktop/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/;C:/Users/user/Downloads/Telegram Desktop/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_64faf.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_64faf.'
+         C:/Users/user/Downloads/Telegram Desktop/MinGW/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/collect2.exe -plugin C:/Users/user/Downloads/Telegram Desktop/MinGW/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/liblto_plugin.dll -plugin-opt=C:/Users/user/Downloads/Telegram Desktop/MinGW/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\user\\AppData\\Local\\Temp\\cc69JYYr.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 --sysroot=/e/temp/gcc/dest -m i386pep -Bdynamic -o cmTC_64faf.exe C:/Users/user/Downloads/Telegram Desktop/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Users/user/Downloads/Telegram Desktop/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/crtbegin.o -LC:/Users/user/Downloads/Telegram Desktop/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0 -LC:/Users/user/Downloads/Telegram Desktop/MinGW/MinGW/bin/../lib/gcc -LC:/Users/user/Downloads/Telegram Desktop/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Users/user/Downloads/Telegram Desktop/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../lib -LC:/Users/user/Downloads/Telegram Desktop/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib -LC:/Users/user/Downloads/Telegram Desktop/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../.. CMakeFiles/cmTC_64faf.dir/CMakeCXXCompilerABI.cpp.obj --out-implib libcmTC_64faf.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/Users/user/Downloads/Telegram Desktop/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/crtend.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_64faf.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_64faf.'\x0d
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/JetBrains/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
+      - "C:/Program Files/JetBrains/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [C:/Users/user/Downloads/Telegram Desktop/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../include/c++/13.2.0]
+          add: [C:/Users/user/Downloads/Telegram Desktop/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../include/c++/13.2.0/x86_64-w64-mingw32]
+          add: [C:/Users/user/Downloads/Telegram Desktop/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../include/c++/13.2.0/backward]
+          add: [C:/Users/user/Downloads/Telegram Desktop/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/include]
+          add: [C:/Users/user/Downloads/Telegram Desktop/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/include-fixed]
+          add: [C:/Users/user/Downloads/Telegram Desktop/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/include]
+        end of search list found
+        collapse include dir [C:/Users/user/Downloads/Telegram Desktop/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../include/c++/13.2.0] ==> [C:/Users/user/Downloads/Telegram Desktop/MinGW/MinGW/include/c++/13.2.0]
+        collapse include dir [C:/Users/user/Downloads/Telegram Desktop/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../include/c++/13.2.0/x86_64-w64-mingw32] ==> [C:/Users/user/Downloads/Telegram Desktop/MinGW/MinGW/include/c++/13.2.0/x86_64-w64-mingw32]
+        collapse include dir [C:/Users/user/Downloads/Telegram Desktop/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../include/c++/13.2.0/backward] ==> [C:/Users/user/Downloads/Telegram Desktop/MinGW/MinGW/include/c++/13.2.0/backward]
+        collapse include dir [C:/Users/user/Downloads/Telegram Desktop/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/include] ==> [C:/Users/user/Downloads/Telegram Desktop/MinGW/MinGW/lib/gcc/x86_64-w64-mingw32/13.2.0/include]
+        collapse include dir [C:/Users/user/Downloads/Telegram Desktop/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/include-fixed] ==> [C:/Users/user/Downloads/Telegram Desktop/MinGW/MinGW/lib/gcc/x86_64-w64-mingw32/13.2.0/include-fixed]
+        collapse include dir [C:/Users/user/Downloads/Telegram Desktop/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/include] ==> [C:/Users/user/Downloads/Telegram Desktop/MinGW/MinGW/x86_64-w64-mingw32/include]
+        implicit include dirs: [C:/Users/user/Downloads/Telegram Desktop/MinGW/MinGW/include/c++/13.2.0;C:/Users/user/Downloads/Telegram Desktop/MinGW/MinGW/include/c++/13.2.0/x86_64-w64-mingw32;C:/Users/user/Downloads/Telegram Desktop/MinGW/MinGW/include/c++/13.2.0/backward;C:/Users/user/Downloads/Telegram Desktop/MinGW/MinGW/lib/gcc/x86_64-w64-mingw32/13.2.0/include;C:/Users/user/Downloads/Telegram Desktop/MinGW/MinGW/lib/gcc/x86_64-w64-mingw32/13.2.0/include-fixed;C:/Users/user/Downloads/Telegram Desktop/MinGW/MinGW/x86_64-w64-mingw32/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/JetBrains/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:159 (message)"
+      - "C:/Program Files/JetBrains/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld\\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: 'C:/iSpring/StudyOOD/09_lab/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-s4dgqk']
+        ignore line: []
+        ignore line: [Run Build Command(s): "C:/Program Files/JetBrains/CLion 2024.1/bin/ninja/win/x64/ninja.exe" -v cmTC_64faf]
+        ignore line: [[1/2] C:\\Users\\user\\DOWNLO~1\\TELEGR~1\\MinGW\\MinGW\\bin\\G__~1.EXE   -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_64faf.dir/CMakeCXXCompilerABI.cpp.obj -c "C:/Program Files/JetBrains/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp"]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=C:\\Users\\user\\DOWNLO~1\\TELEGR~1\\MinGW\\MinGW\\bin\\G__~1.EXE]
+        ignore line: [Target: x86_64-w64-mingw32]
+        ignore line: [Configured with: ../src/configure --enable-languages=c c++ --build=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --disable-multilib --prefix=/e/temp/gcc/dest --with-sysroot=/e/temp/gcc/dest --disable-libstdcxx-pch --disable-libstdcxx-verbose --disable-nls --disable-shared --disable-win32-registry --enable-threads=posix --enable-libgomp --with-zstd=/c/mingw]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 13.2.0 (GCC) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_64faf.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_64faf.dir/']
+        ignore line: [ C:/Users/user/Downloads/Telegram Desktop/MinGW/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/cc1plus.exe -quiet -v -iprefix C:/Users/user/Downloads/Telegram Desktop/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/ -D_REENTRANT C:/Program Files/JetBrains/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_64faf.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fdiagnostics-color=always -o C:\\Users\\user\\AppData\\Local\\Temp\\ccWq4Dpl.s]
+        ignore line: [GNU C++17 (GCC) version 13.2.0 (x86_64-w64-mingw32)]
+        ignore line: [	compiled by GNU C version 13.2.0  GMP version 6.3.0  MPFR version 4.2.1  MPC version 1.3.1  isl version isl-0.24-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring duplicate directory "C:/Users/user/Downloads/Telegram Desktop/MinGW/MinGW/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../include/c++/13.2.0"]
+        ignore line: [ignoring duplicate directory "C:/Users/user/Downloads/Telegram Desktop/MinGW/MinGW/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../include/c++/13.2.0/x86_64-w64-mingw32"]
+        ignore line: [ignoring duplicate directory "C:/Users/user/Downloads/Telegram Desktop/MinGW/MinGW/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../include/c++/13.2.0/backward"]
+        ignore line: [ignoring duplicate directory "C:/Users/user/Downloads/Telegram Desktop/MinGW/MinGW/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.2.0/include"]
+        ignore line: [ignoring nonexistent directory "/e/temp/gcc/dest/e/temp/gcc/dest/lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../include"]
+        ignore line: [ignoring duplicate directory "C:/Users/user/Downloads/Telegram Desktop/MinGW/MinGW/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.2.0/include-fixed"]
+        ignore line: [ignoring duplicate directory "C:/Users/user/Downloads/Telegram Desktop/MinGW/MinGW/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/include"]
+        ignore line: [ignoring nonexistent directory "/e/temp/gcc/dest/mingw/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ C:/Users/user/Downloads/Telegram Desktop/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../include/c++/13.2.0]
+        ignore line: [ C:/Users/user/Downloads/Telegram Desktop/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../include/c++/13.2.0/x86_64-w64-mingw32]
+        ignore line: [ C:/Users/user/Downloads/Telegram Desktop/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../include/c++/13.2.0/backward]
+        ignore line: [ C:/Users/user/Downloads/Telegram Desktop/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/include]
+        ignore line: [ C:/Users/user/Downloads/Telegram Desktop/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/include-fixed]
+        ignore line: [ C:/Users/user/Downloads/Telegram Desktop/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/include]
+        ignore line: [End of search list.]
+        ignore line: [Compiler executable checksum: aa8d155dea9d0b877613f1961dc4601a]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_64faf.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_64faf.dir/']
+        ignore line: [ C:/Users/user/Downloads/Telegram Desktop/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles/cmTC_64faf.dir/CMakeCXXCompilerABI.cpp.obj C:\\Users\\user\\AppData\\Local\\Temp\\ccWq4Dpl.s]
+        ignore line: [GNU assembler version 2.41 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.41]
+        ignore line: [COMPILER_PATH=C:/Users/user/Downloads/Telegram Desktop/MinGW/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/]
+        ignore line: [C:/Users/user/Downloads/Telegram Desktop/MinGW/MinGW/bin/../libexec/gcc/]
+        ignore line: [C:/Users/user/Downloads/Telegram Desktop/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/bin/]
+        ignore line: [LIBRARY_PATH=C:/Users/user/Downloads/Telegram Desktop/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/]
+        ignore line: [C:/Users/user/Downloads/Telegram Desktop/MinGW/MinGW/bin/../lib/gcc/]
+        ignore line: [C:/Users/user/Downloads/Telegram Desktop/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/../lib/]
+        ignore line: [C:/Users/user/Downloads/Telegram Desktop/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../lib/]
+        ignore line: [C:/Users/user/Downloads/Telegram Desktop/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/]
+        ignore line: [C:/Users/user/Downloads/Telegram Desktop/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_64faf.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_64faf.dir/CMakeCXXCompilerABI.cpp.']
+        ignore line: [[2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\Users\\user\\DOWNLO~1\\TELEGR~1\\MinGW\\MinGW\\bin\\G__~1.EXE  -v CMakeFiles/cmTC_64faf.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_64faf.exe -Wl --out-implib libcmTC_64faf.dll.a -Wl --major-image-version 0 --minor-image-version 0   && cd ."]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=C:\\Users\\user\\DOWNLO~1\\TELEGR~1\\MinGW\\MinGW\\bin\\G__~1.EXE]
+        ignore line: [COLLECT_LTO_WRAPPER=C:/Users/user/Downloads/Telegram\\ Desktop/MinGW/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/lto-wrapper.exe]
+        ignore line: [Target: x86_64-w64-mingw32]
+        ignore line: [Configured with: ../src/configure --enable-languages=c c++ --build=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --disable-multilib --prefix=/e/temp/gcc/dest --with-sysroot=/e/temp/gcc/dest --disable-libstdcxx-pch --disable-libstdcxx-verbose --disable-nls --disable-shared --disable-win32-registry --enable-threads=posix --enable-libgomp --with-zstd=/c/mingw]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 13.2.0 (GCC) ]
+        ignore line: [COMPILER_PATH=C:/Users/user/Downloads/Telegram Desktop/MinGW/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/]
+        ignore line: [C:/Users/user/Downloads/Telegram Desktop/MinGW/MinGW/bin/../libexec/gcc/]
+        ignore line: [C:/Users/user/Downloads/Telegram Desktop/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/bin/]
+        ignore line: [LIBRARY_PATH=C:/Users/user/Downloads/Telegram Desktop/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/]
+        ignore line: [C:/Users/user/Downloads/Telegram Desktop/MinGW/MinGW/bin/../lib/gcc/]
+        ignore line: [C:/Users/user/Downloads/Telegram Desktop/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/../lib/]
+        ignore line: [C:/Users/user/Downloads/Telegram Desktop/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../lib/]
+        ignore line: [C:/Users/user/Downloads/Telegram Desktop/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/]
+        ignore line: [C:/Users/user/Downloads/Telegram Desktop/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_64faf.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_64faf.']
+        ignore line: [ C:/Users/user/Downloads/Telegram Desktop/MinGW/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/collect2.exe -plugin C:/Users/user/Downloads/Telegram Desktop/MinGW/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/liblto_plugin.dll -plugin-opt=C:/Users/user/Downloads/Telegram Desktop/MinGW/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/13.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\user\\AppData\\Local\\Temp\\cc69JYYr.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 --sysroot=/e/temp/gcc/dest -m i386pep -Bdynamic -o cmTC_64faf.exe C:/Users/user/Downloads/Telegram Desktop/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Users/user/Downloads/Telegram Desktop/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/crtbegin.o -LC:/Users/user/Downloads/Telegram Desktop/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0 -LC:/Users/user/Downloads/Telegram Desktop/MinGW/MinGW/bin/../lib/gcc -LC:/Users/user/Downloads/Telegram Desktop/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Users/user/Downloads/Telegram Desktop/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../lib -LC:/Users/user/Downloads/Telegram Desktop/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../../../x86_64-w64-mingw32/lib -LC:/Users/user/Downloads/Telegram Desktop/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/../../.. CMakeFiles/cmTC_64faf.dir/CMakeCXXCompilerABI.cpp.obj --out-implib libcmTC_64faf.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/Users/user/Downloads/Telegram Desktop/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/13.2.0/crtend.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_64faf.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_64faf.'\x0d]
+        ignore line: []
+        ignore line: []
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/JetBrains/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/JetBrains/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/JetBrains/CLion 2024.1/bin/cmake/win/x64/share/cmake-3.28/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "cmake-build-release/_deps/catch2-src/CMake/CatchMiscFunctions.cmake:12 (check_cxx_compiler_flag)"
+      - "cmake-build-release/_deps/catch2-src/CMake/CatchMiscFunctions.cmake:119 (add_cxx_flag_if_supported_to_targets)"
+      - "cmake-build-release/_deps/catch2-src/src/CMakeLists.txt:342 (add_build_reproducibility_settings)"
+    checks:
+      - "Performing Test HAVE_FLAG__ffile_prefix_map_C__iSpring_StudyOOD_09_lab_cmake_build_release__deps_catch2_src__"
+    directories:
+      source: "C:/iSpring/StudyOOD/09_lab/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-8p0ksv"
+      binary: "C:/iSpring/StudyOOD/09_lab/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-8p0ksv"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/iSpring/StudyOOD/09_lab/cmake;C:/iSpring/StudyOOD/09_lab/cmake-build-release/_deps/catch2-src/extras;C:/iSpring/StudyOOD/09_lab/cmake-build-release/_deps/catch2-src/CMake"
+    buildResult:
+      variable: "HAVE_FLAG__ffile_prefix_map_C__iSpring_StudyOOD_09_lab_cmake_build_release__deps_catch2_src__"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/iSpring/StudyOOD/09_lab/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-8p0ksv'
+        
+        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2024.1/bin/ninja/win/x64/ninja.exe" -v cmTC_ba9d8
+        [1/2] C:\\Users\\user\\DOWNLO~1\\TELEGR~1\\MinGW\\MinGW\\bin\\G__~1.EXE -DHAVE_FLAG__ffile_prefix_map_C__iSpring_StudyOOD_09_lab_cmake_build_release__deps_catch2_src__  -std=gnu++20 -fdiagnostics-color=always   -ffile-prefix-map=C:/iSpring/StudyOOD/09_lab/cmake-build-release/_deps/catch2-src/= -o CMakeFiles/cmTC_ba9d8.dir/src.cxx.obj -c C:/iSpring/StudyOOD/09_lab/cmake-build-release/CMakeFiles/CMakeScratch/TryCompile-8p0ksv/src.cxx
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\Users\\user\\DOWNLO~1\\TELEGR~1\\MinGW\\MinGW\\bin\\G__~1.EXE   CMakeFiles/cmTC_ba9d8.dir/src.cxx.obj -o cmTC_ba9d8.exe -Wl,--out-implib,libcmTC_ba9d8.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+...

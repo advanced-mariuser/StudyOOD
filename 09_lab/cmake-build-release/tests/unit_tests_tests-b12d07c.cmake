@@ -1,0 +1,5 @@
+add_test( [==[Image Tests]==] C:/iSpring/StudyOOD/09_lab/cmake-build-release/tests/unit_tests.exe [==[Image Tests]==]  )
+set_tests_properties( [==[Image Tests]==] PROPERTIES WORKING_DIRECTORY C:/iSpring/StudyOOD/09_lab/cmake-build-release/tests)
+add_test( [==[Tile Tests]==] C:/iSpring/StudyOOD/09_lab/cmake-build-release/tests/unit_tests.exe [==[Tile Tests]==]  )
+set_tests_properties( [==[Tile Tests]==] PROPERTIES WORKING_DIRECTORY C:/iSpring/StudyOOD/09_lab/cmake-build-release/tests)
+set( unit_tests_TESTS [==[Image Tests]==] [==[Tile Tests]==])

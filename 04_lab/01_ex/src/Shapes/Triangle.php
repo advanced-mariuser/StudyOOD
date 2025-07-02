@@ -1,6 +1,9 @@
 <?php
 declare(strict_types=1);
 
+use Canvas\CanvasInterface;
+use Shape\Shape;
+
 require_once __DIR__ . '/Shape.php';
 require_once __DIR__ . '/Point.php';
 

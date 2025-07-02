@@ -1,0 +1,3 @@
+C:/iSpring/StudyOOD/05_lab/cmake-build-release/_deps/googletest-subbuild/CMakeFiles/googletest-populate.dir
+C:/iSpring/StudyOOD/05_lab/cmake-build-release/_deps/googletest-subbuild/CMakeFiles/edit_cache.dir
+C:/iSpring/StudyOOD/05_lab/cmake-build-release/_deps/googletest-subbuild/CMakeFiles/rebuild_cache.dir

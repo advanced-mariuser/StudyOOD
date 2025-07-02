@@ -1,0 +1,19 @@
+# ninja log v5
+40	243	7603608301352044	CMakeFiles/lab5.dir/src/Document/Command/AbstractCommand/AbstractCommand.cpp.obj	b8e905e1788fd66d
+87	1345	7603608312251435	CMakeFiles/lab5.dir/src/Document/Command/SetTitleCommand/SetTitleCommand.cpp.obj	b176248ca0e4b1c
+57	1811	7603608317061228	CMakeFiles/lab5.dir/src/Document/History/History.cpp.obj	16c380c0fa78dc2a
+105	2006	7603608318969165	CMakeFiles/lab5.dir/src/Document/Command/ReplaceTextCommand/ReplaceTextCommand.cpp.obj	2e1a6cc55d215ef0
+214	2016	7603608319113892	CMakeFiles/lab5.dir/src/Document/Command/MacroCommand/MacroCommand.cpp.obj	fd69b109824eb63
+125	2087	7603608319823452	CMakeFiles/lab5.dir/src/Document/Command/DeleteItemCommand/DeleteItemCommand.cpp.obj	f328262010b50362
+71	2171	7603608320658496	CMakeFiles/lab5.dir/src/Document/Command/InsertParagraphCommand/InsertParagraphCommand.cpp.obj	48398e55f706fdb7
+189	2304	7603608321993689	CMakeFiles/lab5.dir/src/Document/Command/ResizeImageCommand/ResizeImageCommand.cpp.obj	b8b2832f98aee14d
+29	2628	7603608325243581	CMakeFiles/lab5.dir/src/Document/Document/Document.cpp.obj	c7db2640053b3fa9
+18	2722	7603608326204806	CMakeFiles/lab5.dir/src/Menu/Menu.cpp.obj	114c2f0f1f41fa7c
+144	2787	7603608326857774	CMakeFiles/lab5.dir/src/Document/Command/SaveCommand/SaveCommand.cpp.obj	ea2b79499862de5c
+167	2949	7603608328473554	CMakeFiles/lab5.dir/src/Document/Command/InsertImageCommand/InsertImageCommand.cpp.obj	bebfad59dbd83e07
+6	3308	7603608332048697	CMakeFiles/lab5.dir/src/main.cpp.obj	be3c664df3d01bbd
+3308	3815	7603608336994560	C:/iSpring/StudyOOD/05_lab/bin/lab5.exe	c00849bf10abab43
+94	1956	7603779790341099	CMakeFiles/lab5.dir/src/main.cpp.obj	be3c664df3d01bbd
+1957	2472	7603779795362426	C:/iSpring/StudyOOD/05_lab/bin/lab5.exe	c00849bf10abab43
+11	945	7603815651410796	CMakeFiles/lab5.dir/src/Document/History/History.cpp.obj	16c380c0fa78dc2a
+946	1516	7603815656979964	C:/iSpring/StudyOOD/05_lab/bin/lab5.exe	c00849bf10abab43

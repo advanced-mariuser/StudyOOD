@@ -1,7 +1,7 @@
 <?php
 
-require_once 'ArgumentParser/CArgumentParser.php';
-require_once 'Transformer/CTransformer.php';
+require_once __DIR__ . '/src/ArgumentParser.php';
+require_once __DIR__ . '/src/Transformer.php';
 
 try {
     $argc = $GLOBALS['argc'];

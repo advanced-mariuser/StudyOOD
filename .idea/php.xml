@@ -74,8 +74,8 @@
   </component>
   <component name="PhpUnit">
     <phpunit_settings>
+      <PhpUnitSettings custom_loader_path="$PROJECT_DIR$/06_lab/01_ex/vendor/autoload.php" phpunit_phar_path="" />
       <PhpUnitSettings custom_loader_path="$PROJECT_DIR$/02_lab_php/vendor/autoload.php" />
-      <PhpUnitSettings custom_loader_path="$PROJECT_DIR$/01_lab_php/vendor/autoload.php" />
     </phpunit_settings>
   </component>
   <component name="PsalmOptionsConfiguration">

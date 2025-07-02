@@ -3,7 +3,7 @@
 require_once __DIR__ . '/../OutputDataStream/OutputDataStreamInterface.php';
 require_once __DIR__ . '/../EncryptionTableBuilder.php';
 
-class EncryptingOutputStream
+class EncryptingOutputStream implements OutputDataStreamInterface
 {
     private OutputDataStreamInterface $stream;
     private array $encryptionTable;

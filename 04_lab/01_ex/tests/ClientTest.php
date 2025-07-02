@@ -1,6 +1,7 @@
 <?php
 declare(strict_types=1);
 
+use Canvas\SVGCanvas;
 use PHPUnit\Framework\TestCase;
 
 require_once __DIR__ . '/../vendor/autoload.php';

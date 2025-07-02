@@ -1,7 +1,9 @@
 <?php
 declare(strict_types=1);
 
+use Canvas\CanvasInterface;
 use PHPUnit\Framework\TestCase;
+use Shape\Shape;
 
 require_once __DIR__ . '/../vendor/autoload.php';
 require_once __DIR__ . '/../src/Painter.php';

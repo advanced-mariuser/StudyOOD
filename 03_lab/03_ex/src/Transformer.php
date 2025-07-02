@@ -1,10 +1,13 @@
 <?php
+declare(strict_types=1);
 
 require_once __DIR__ . '/InputDataStream/InputDataStreamInterface.php';
+require_once __DIR__ . '/InputDataStream/FileInputStream.php';
 require_once __DIR__ . '/OutputDataStream/OutputDataStreamInterface.php';
+require_once __DIR__ . '/OutputDataStream/FileOutputStream.php';
 require_once __DIR__ . '/EncryptionTableBuilder.php';
 require_once __DIR__ . '/InputDataStreamDecorator/DecryptingInputStream.php';
-require_once __DIR__ . '/InputDataStreamDecorator/DecryptingInputStream.php';
+require_once __DIR__ . '/OutputDataStreamDecorator/EncryptingOutputStream.php';
 
 class Transformer
 {

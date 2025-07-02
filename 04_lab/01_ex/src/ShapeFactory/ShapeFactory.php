@@ -1,6 +1,10 @@
 <?php
 declare(strict_types=1);
 
+use Shape\Ellipse;
+use Shape\Rectangle;
+use Shape\Shape;
+
 require_once __DIR__ . '/ShapeFactoryInterface.php';
 require_once __DIR__ . '/../Shapes/Rectangle.php';
 require_once __DIR__ . '/../Shapes/Triangle.php';

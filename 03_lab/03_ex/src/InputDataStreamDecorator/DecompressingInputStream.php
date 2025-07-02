@@ -1,7 +1,7 @@
 <?php
 
 require_once __DIR__ . '/InputDataStreamDecorator.php';
-require_once __DIR__ . '/../InputDataStream/InputDataStream.php';
+require_once __DIR__ . '/../InputDataStream/InputDataStreamInterface.php';
 
 class DecompressingInputStream extends InputDataStreamDecorator
 {
@@ -11,9 +11,9 @@ class DecompressingInputStream extends InputDataStreamDecorator
     /**
      * Конструктор, инициализирующий декорированный поток.
      *
-     * @param InputDataStream $stream Входной поток данных
+     * @param InputDataStreamInterface $stream Входной поток данных
      */
-    public function __construct(InputDataStream $stream)
+    public function __construct(InputDataStreamInterface $stream)
     {
         parent::__construct($stream);
     }
